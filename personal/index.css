@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    background-color: gainsboro;
+ 
+}
+
+.container{
+    width: 480px;
+    /* border: 1px solid red; */
+    height: 100vh;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-image: url(img/bg1.jpg);
+}
+
+nav{
+
+    /* padding: 25px 0px; */
+    background-image: url(img/bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.nav-content{
+    width: 100%;
+    display: flex;
+    padding: 0px 10px ;
+
+}
+
+.nav-call{
+    width: 50%;
+
+ 
+}
+
+.nav-email{
+    width: 50%;
+
+
+}
+
+.nav-calls{
+    width: 100%;
+
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.nav-emails{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+    gap: 5px;
+}
+
+.nav-call-img{
+    width: 20%;
+
+}
+
+.nav-call-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.nav-email-img{
+    width: 20%;
+}
+
+.nav-email-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+nav p{
+    font-size: 16px;
+    color: white;
+}
+
+
+.social{
+    width: 100%;
+
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.social-1{
+    width: 25%;
+
+    padding: 10px 5px;
+}
+.social-2{
+    width: 25%;
+ 
+    padding: 10px 5px;
+}
+.social-logo{
+    width: 50%;
+    padding: 10px 5px;
+
+}
+
+
+.soc1{
+
+   margin: auto;
+ 
+}
+
+
+.logo{
+    width:100%;
+    display: flex;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width:100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+border-radius: 10px;
+}
+
+
+.icons{
+
+    margin: auto;
+    
+}
+
+
+.icon{
+    width: 40%;
+    padding: 3px;
+    margin: auto;
+    
+}
+.icon img{
+    width: 100%;
+    box-shadow: rgba(83, 79, 79, 0.849) 0px 8px 24px;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    column-gap: 20px;
+}
