@@ -20,7 +20,7 @@ body{
 }
 
 nav{
-
+    box-shadow: rgba(83, 79, 79, 0.849) 0px 8px 24px;
     /* padding: 25px 0px; */
     background-image: url(img/bg.jpg);
     background-position: top;
@@ -123,13 +123,13 @@ nav p{
 .logo{
     width:100%;
     display: flex;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
     justify-content: center;
     align-items: center;
 }
 .logo img{
     width:100%;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(186, 192, 197, 0.432) 0px 8px 24px;
 border-radius: 10px;
 }
 
@@ -159,4 +159,22 @@ border-radius: 10px;
     justify-content: center;
     flex-direction: column;
     column-gap: 20px;
+}
+
+.skills{
+    width: 100%;
+    height: 30vh;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.skill{
+    width: 100%;
+    height: 100%;
+    border: 1px solid green;
+
+}
+
+h1{
+    text-align: center;
 }
